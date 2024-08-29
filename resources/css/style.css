@@ -1,0 +1,16 @@
+:root {
+    --texto-h1: #f6f6f6;
+    --texto-h2: #9b9b9b;
+    --texto-link: #86fce2;
+    --cor-bg: #000000;
+    --font-h1: 'Verdana', 'sans-serif'
+}
+
+body {
+    background-color: var(--cor-bg);
+}
+
+h1 {
+    color: var(--texto-h1);
+    font-family: var(--font-h1)
+}
