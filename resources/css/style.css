@@ -10,7 +10,34 @@ body {
     background-color: var(--cor-bg);
 }
 
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+    padding: 20px;
+}
+
 h1 {
     color: var(--texto-h1);
+    font-weight: 400;
+    font-size: 50px;
     font-family: var(--font-h1)
+}
+
+a {
+    color: var(--texto-link);
+}
+
+
+h2 {
+    color: var(--texto-h2);
+    font-family: var(--font-h1);
+    font-weight: 300;
+}
+
+footer {
+    text-align: right;
+    color: var(--texto-h2);
+    font-family: var(--font-h1);
 }
